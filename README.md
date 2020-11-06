@@ -18,7 +18,7 @@ present(alert, animated: true, completion: nil)
 ```
 ### **效果**
 
-![image](![](https://raw.githubusercontent.com/shafujiu/images/main/20201106161617.png))
+![](https://raw.githubusercontent.com/shafujiu/images/main/20201106161617.png)
 
 
 
