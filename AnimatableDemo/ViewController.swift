@@ -15,17 +15,7 @@ class ViewController: AnimatableViewController {
 
     }
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
-//        let alert = UIAlertController(title: "测试title", message: "测试message", preferredStyle: .alert)
-//        alert.addAction(UIAlertAction(title: "default", style: .default, handler: { (action) in
-//            print("default")
-//        }))
-//        alert.addAction(UIAlertAction(title: "cancel", style: .cancel, handler: { (_) in
-//            print("cancel")
-//        }))
-//        present(alert, animated: true, completion: nil)
-        
+    @IBAction func showAlertAct(_ sender: Any) {
         
         let alert = SFJAlertController.alert(title: nil, message: nil)
         alert.addAction(SFJAlertAction("下一份", .default(nil), {
