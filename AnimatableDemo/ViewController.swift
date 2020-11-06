@@ -17,7 +17,7 @@ class ViewController: AnimatableViewController {
 
     @IBAction func showAlertAct(_ sender: Any) {
         
-        let alert = SFJAlertController.alert(title: nil, message: nil)
+        let alert = SFJAlertController.alert(title: "标题", message: "这里是内容")
         alert.addAction(SFJAlertAction("下一份", .default(nil), {
 
         }))

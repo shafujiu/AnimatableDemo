@@ -53,7 +53,7 @@ class SFJAlertController: AnimatableModalViewController {
     @IBOutlet private weak var bottomContentStack: UIStackView!
     
     
-    static func alert(title: String?, message: String?) -> SFJAlertController {
+    static func alert(title: String? = nil, message: String? = nil) -> SFJAlertController {
         let sb = UIStoryboard(name: "SFJAlert", bundle: nil)
         let vc = sb.instantiateViewController(identifier: "SFJAlertController") as! SFJAlertController
         // opacity viewDidLoad 配置不生效的

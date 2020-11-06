@@ -15,8 +15,6 @@
 		814CD1AF2553F00100A06526 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814CD1AD2553F00100A06526 /* Main.storyboard */; };
 		814CD1B12553F00300A06526 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 814CD1B02553F00300A06526 /* Assets.xcassets */; };
 		814CD1B42553F00300A06526 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814CD1B22553F00300A06526 /* LaunchScreen.storyboard */; };
-		814CD1BF2553F00300A06526 /* AnimatableDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CD1BE2553F00300A06526 /* AnimatableDemoTests.swift */; };
-		814CD1CA2553F00300A06526 /* AnimatableDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CD1C92553F00300A06526 /* AnimatableDemoUITests.swift */; };
 		814CD1F62553F23400A06526 /* SFJAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814CD1F52553F23400A06526 /* SFJAlertController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,11 +47,7 @@
 		814CD1B32553F00300A06526 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		814CD1B52553F00300A06526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		814CD1BA2553F00300A06526 /* AnimatableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		814CD1BE2553F00300A06526 /* AnimatableDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDemoTests.swift; sourceTree = "<group>"; };
-		814CD1C02553F00300A06526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		814CD1C52553F00300A06526 /* AnimatableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		814CD1C92553F00300A06526 /* AnimatableDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDemoUITests.swift; sourceTree = "<group>"; };
-		814CD1CB2553F00300A06526 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		814CD1F52553F23400A06526 /* SFJAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFJAlertController.swift; sourceTree = "<group>"; };
 		B86D91B5D167701F5AA54985 /* Pods-AnimatableDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatableDemo.debug.xcconfig"; path = "Target Support Files/Pods-AnimatableDemo/Pods-AnimatableDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C82C0D03FDE866E3928F48E8 /* Pods_AnimatableDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatableDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,8 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				814CD1A62553F00100A06526 /* AnimatableDemo */,
-				814CD1BD2553F00300A06526 /* AnimatableDemoTests */,
-				814CD1C82553F00300A06526 /* AnimatableDemoUITests */,
 				814CD1A52553F00100A06526 /* Products */,
 				52C4A5CD3866526E442713B4 /* Pods */,
 				C22ED3361EE302DF42D9EB8E /* Frameworks */,
@@ -130,24 +122,6 @@
 				814CD1B52553F00300A06526 /* Info.plist */,
 			);
 			path = AnimatableDemo;
-			sourceTree = "<group>";
-		};
-		814CD1BD2553F00300A06526 /* AnimatableDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				814CD1BE2553F00300A06526 /* AnimatableDemoTests.swift */,
-				814CD1C02553F00300A06526 /* Info.plist */,
-			);
-			path = AnimatableDemoTests;
-			sourceTree = "<group>";
-		};
-		814CD1C82553F00300A06526 /* AnimatableDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				814CD1C92553F00300A06526 /* AnimatableDemoUITests.swift */,
-				814CD1CB2553F00300A06526 /* Info.plist */,
-			);
-			path = AnimatableDemoUITests;
 			sourceTree = "<group>";
 		};
 		C22ED3361EE302DF42D9EB8E /* Frameworks */ = {
@@ -344,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814CD1BF2553F00300A06526 /* AnimatableDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +325,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				814CD1CA2553F00300A06526 /* AnimatableDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
